@@ -1,3 +1,4 @@
+import { connect } from './db'
 import { listen } from './server'
 
-listen(3063)
+connect().then(() => listen(3063))
