@@ -22,6 +22,8 @@
     "no-multiple-empty-lines": "error",
     "space-infix-ops": "error",
     "no-return-assign": "error",
+    "no-use-before-define": "error",
+    "no-unused-expressions": "error",
     "prefer-destructuring": ["error", {"object": true, "array": false}],
     "comma-spacing": ["error", { "before": false, "after": true }],
     "keyword-spacing": ["error", { "before": true, "after": true }],
